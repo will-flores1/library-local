@@ -1,0 +1,37 @@
+body {
+    background-color: #e9ecec;
+    font-family: roboto;
+}
+
+.my-library {
+    background-color: #131921;
+    color: white;
+}
+
+.add-book-card {
+    background-color: white;
+    padding: 2rem 4rem 4rem 2rem;
+    box-shadow: inset 1px -5px 5px #00000025;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.add-book-card {
+    width: 15rem;
+}
+
+#add-book {
+    background-color: #fabd69;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-weight: 600;
+}
+#add-book:hover {
+    background-color: #f3a847;  
+    cursor: pointer;
+}
