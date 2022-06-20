@@ -6,23 +6,25 @@ body {
 .my-library {
     background-color: #131921;
     color: white;
+    padding: 1rem 2.5rem;
 }
 
 .add-book-card {
     background-color: white;
     padding: 2rem 4rem 4rem 2rem;
+    margin: 1rem;
     box-shadow: inset 1px -5px 5px #00000025;
     border-radius: 4px;
+    width: 15rem;
 }
 
-form {
+.book-title,
+.book-author,
+.book-pages,
+.book-read {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
-}
-
-.add-book-card {
-    width: 15rem;
 }
 
 #add-book {
@@ -33,5 +35,41 @@ form {
 }
 #add-book:hover {
     background-color: #f3a847;  
+    cursor: pointer;
+}
+
+#my-books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#my-books > div {
+    background-color: white;
+    height: fit-content;
+    width: 15rem;
+    padding: 2rem 4rem 4rem 2rem;
+    margin: 1rem;
+    box-shadow: inset 1px -5px 5px #00000025;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card-component {
+    display: flex;
+    flex-direction: column;
+}
+
+.remove-book-btn {
+    background-color: #ff0000;
+    color: white;
+    margin: 1rem 0rem; 
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-weight: 600;
+    width: fit-content;
+}
+.remove-book-btn:hover {
+    background-color: #dd0000;  
     cursor: pointer;
 }
