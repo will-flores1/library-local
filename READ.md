@@ -1,4 +1,5 @@
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/48Kise2OZ9G9rIu5Hh" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/48Kise2OZ9G9rIu5Hh"></a></p>
+![gif demo](https://media.giphy.com/media/6qJgttpUXnHLPprucM/giphy.gif) <br>
+[Live Demo](https://will-flores1.github.io/library-local/)
 
 # Problem solving process:  
 ### 1. Understand the Problem
