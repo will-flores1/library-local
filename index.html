@@ -3,32 +3,38 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Local Library</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 class='my-library' >My Library</h1>
-    
+        <h1 class='my-library' >Local Library</h1>
         <div class="add-book-card">
             <h2>Add Book:</h2>
             <form id='book-form'action="">
-                <label for="title" class="title">title: </label>
-                <input type="text" name="title" id="title">
-
-                <label for="author">author: </label>
-                <input type="text" name="author" id="author">
-
-                <label for="pages">pages: </label>
-                <input type="text" name="pages" id="pages">
-                
-                <label for="read">read: </label>
-                <input type="text" class="read" id="read">                
+                <div class="book-title">
+                    <label for="title" class="title">title: </label>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div class="book-author">
+                    <label for="author">author: </label>
+                    <input type="text" name="author" id="author">
+                </div>
+                <div class="book-pages">
+                    <label for="pages">pages: </label>
+                    <input type="text" name="pages" id="pages">
+                </div>
+                <div class="book-read">
+                    <label for="read">read: </label>
+                    <select class="read" id="read">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>                                
             </form>
             <input type="button" id="add-book" value="Add Book">
         </div>
-        <h1>My Books</h1>
         <div id="my-books">
             
         </div>
