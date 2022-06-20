@@ -5,9 +5,8 @@
 **Constraints**: we need to add books, remove books, and display books  
 **Questions**:
 
-- [ ] How do I loop through an array and display the objects property values?  
 - [x] How do I connect the DOM elements to my javascript functions?  
-- [ ] How do I add DOM elements to a page when a button is clicked?  
+- [x] How do I add DOM elements to a page when a button is clicked?  
 - [x] How do I better name variables and classes? Dictionary.com inspiration from definitions and synonyms
 - [x] How do I collect form information in javascript?
 ....  
@@ -24,9 +23,4 @@
 ### 3. Convert each step into code
 ### 4. Execute code (and debug)
 
-
 *naming convention: snake case*
-<!-- 1. Develop a repeatable process
-2. Stop tutorials & practice with problems
-3. Build simple projects
-4. Start watching tutorials again -->
