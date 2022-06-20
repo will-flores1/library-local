@@ -1,3 +1,5 @@
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/48Kise2OZ9G9rIu5Hh" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/48Kise2OZ9G9rIu5Hh"></a></p>
+
 # Problem solving process:  
 ### 1. Understand the Problem
 **Input**: USER enters book information into form then clicks 'add book'  
